@@ -1,0 +1,42 @@
+body{
+    background-color:purple;
+}
+h1{
+    text-align: center;
+
+} 
+
+.mainImage{
+    display: flex;
+    align-items: center;
+    
+
+}
+.img-exect{
+    width: 50;
+    height: 50%;
+}
+.info{
+    display: flex;
+    flex: 33%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 2px;
+}
+.explore{
+    flex-basis: 32%;
+    border: 2px;
+    justify-items: baseline;
+    padding: 1px;
+}
+.explore img{
+    border-radius: 50%;
+    float: left;
+
+}
+.explore .small img {
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
